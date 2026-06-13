@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #faf8f3;
+  --ink: #1c1917;
+  --muted: #78716c;
+  --border: #e7e5e0;
+  --accent: #c2410c;
+}
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--cream);
+    color: var(--ink);
+    font-family: "Georgia", "Times New Roman", serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}

@@ -1,0 +1,9 @@
+.vercel
+node_modules
+.next
+*.tsbuildinfo
+.env*
+RIPRENDI_DA_QUI.md
+SESSIONE_20_05_2026.md
+PARAMETRI_GENERAZIONE.md
+titivillus.js
