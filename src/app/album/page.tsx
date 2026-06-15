@@ -31,7 +31,7 @@ export default function Album() {
     <main style={{ minHeight: "100vh", padding: "48px 24px 100px", background: "var(--cream)" }}>
       <nav style={{ position: "fixed", top: "20px", right: "24px", display: "flex", gap: "24px", fontFamily: "Georgia, serif", fontSize: "11px", letterSpacing: "0.25em", textTransform: "uppercase", zIndex: 10 }}>
         <Link href="/dizionario" style={{ color: "var(--muted)", textDecoration: "none", borderBottom: "1px solid var(--border)" }}>Dizionario</Link>
-        <Link href="/esplora" style={{ color: "var(--muted)", textDecoration: "none", borderBottom: "1px solid var(--border)" }}>Esplora</Link>
+        <Link href="/consulta" style={{ color: "var(--muted)", textDecoration: "none", borderBottom: "1px solid var(--border)" }}>Consulta</Link>
         <Link href="/album" style={{ color: "var(--ink)", textDecoration: "none", borderBottom: "1px solid var(--ink)" }}>Album</Link>
       </nav>
 

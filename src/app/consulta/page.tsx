@@ -100,12 +100,12 @@ const words: Word[] = [
   },
 ];
 
-export default function Esplora() {
+export default function Consulta() {
   return (
     <main style={{ minHeight: "100vh", padding: "48px 24px 100px", background: "var(--cream)" }}>
       <nav style={{ position: "fixed", top: "20px", right: "24px", display: "flex", gap: "24px", fontFamily: "Georgia, serif", fontSize: "11px", letterSpacing: "0.25em", textTransform: "uppercase", zIndex: 10 }}>
         <Link href="/dizionario" style={{ color: "var(--muted)", textDecoration: "none", borderBottom: "1px solid var(--border)" }}>Dizionario</Link>
-        <Link href="/esplora" style={{ color: "var(--ink)", textDecoration: "none", borderBottom: "1px solid var(--ink)" }}>Esplora</Link>
+        <Link href="/consulta" style={{ color: "var(--ink)", textDecoration: "none", borderBottom: "1px solid var(--ink)" }}>Consulta</Link>
         <Link href="/album" style={{ color: "var(--muted)", textDecoration: "none", borderBottom: "1px solid var(--border)" }}>Album</Link>
       </nav>
 
@@ -114,7 +114,7 @@ export default function Esplora() {
           ← Sillessico
         </Link>
         <h1 style={{ fontSize: "clamp(22px, 4vw, 32px)", fontWeight: "normal", fontStyle: "italic", color: "var(--ink)", lineHeight: 1.2, margin: 0 }}>
-          Esplora il lessico
+          Consulta il lessico
         </h1>
         <p style={{ marginTop: "10px", fontFamily: "Georgia, serif", fontSize: "14px", color: "var(--muted)", fontStyle: "italic" }}>
           Undici parole per undici spazi senza nome
