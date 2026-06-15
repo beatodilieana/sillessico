@@ -101,6 +101,60 @@ L'idea parte da una premessa semplice: **esiste uno spazio tra le cose e le paro
 
 ---
 
+## Brand Identity (Minima)
+
+### Logo & Simbolo
+- **Simbolo principale:** Una "S" stilizzata con un sottotitolo di tre puntini (·) che evocano parole non ancora dette
+- **Variante icona:** Un piccolo punto interrogativo rotato (?) dentro un cerchio — l'ignoto che aspetta un nome
+- **Uso:** Minimalista, monocromatico, scalabile da favicon a poster
+
+### Palette Colori
+| Nome | Hex | Uso |
+|------|-----|-----|
+| **Inchiostro** | `#2c2c2c` | Testo principale, UI |
+| **Crema** | `#f5f3ee` | Background, spazi bianchi |
+| **Acento** | `#a89e8f` | Link, highlight, categoria |
+| **Confine** | `#d9d5ce` | Bordi, divisioni |
+
+*Ispirazione:* Colori di una vecchia enciclopedia, penna su carta, arcano ma leggibile.
+
+### Typography
+| Elemento | Font | Uso |
+|----------|------|-----|
+| Titoli | Georgia, serif (italic) | H1, H2, marchio |
+| Corpo | Georgia, serif | Testo principale |
+| Etichette | Georgia, serif, small caps | Nav, label, metadati |
+
+*Principio:* Eleganza classica con tono narrativo. Le parole inventate meritano una cornice colta.
+
+### Tone of Voice
+
+**Pilastri:**
+- 📖 **Poetico**: parla di sentimenti, non di features
+- 🗣️ **Intimo**: tu-e-io, conversazionale, non aziendale
+- 🎓 **Colto**: usa il linguaggio con rispetto, ma rimane accessibile
+- ✨ **Curioso**: celebra il dettaglio, la scoperta, l'inaspettato
+
+**Esempi di messaggi:**
+- ❌ "Inventa parole nuove facilmente"
+- ✅ "Ogni sentimento senza nome è un pensiero che non finisci"
+- ❌ "Salva le tue creazioni"
+- ✅ "Custodisci i tuoi spazi innominati"
+
+### Hashtag Fissi
+- `#sillessico` — marca principale
+- `#parolesenzanome` — identità del progetto
+- `#lessicoinventato` — categoria
+
+### Messaging Principale
+**Headline:** *"Dizionario delle parole mai dette"*
+
+**Subheader:** *"Ogni concetto senza nome è un pensiero che non riesci a finire. Sillessico espande lo spazio della tua lingua, una parola alla volta."*
+
+**Call-to-action:** *"Dai un nome"* (non "Crea una parola")
+
+---
+
 ## Dati Chiave
 
 - **Modello AI:** Claude Sonnet 4.6
