@@ -93,6 +93,16 @@ export default function WordInventor() {
         previousResultsMap.current.set(inputKey, updated);
       }
       setResult(typed);
+
+      if (mode === "image" && !typed.exists && imageFile) {
+        const imageBase64 = await toBase64(imageFile);
+        const word = (typed as NewWordResult).word;
+        await fetch("/api/album", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ imageData: `data:${imageFile.type};base64,${imageBase64}`, word }),
+        }).catch(() => {});
+      }
     } catch (e) {
       setError(e instanceof Error ? e.message : (outputLanguage === "it" ? "Qualcosa è andato storto." : "Something went wrong."));
     } finally {

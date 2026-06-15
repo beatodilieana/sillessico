@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 interface AlbumEntry {
   id: string;
@@ -8,9 +9,15 @@ interface AlbumEntry {
   word: string;
 }
 
-const samples: AlbumEntry[] = [];
-
 export default function Album() {
+  const [entries, setEntries] = useState<AlbumEntry[]>([]);
+
+  useEffect(() => {
+    fetch("/api/album")
+      .then((res) => res.json())
+      .then((data) => setEntries(data))
+      .catch(() => setEntries([]));
+  }, []);
   return (
     <main style={{ minHeight: "100vh", padding: "48px 24px 100px", background: "var(--cream)" }}>
       <nav style={{ position: "fixed", top: "20px", right: "24px", display: "flex", gap: "24px", fontFamily: "Georgia, serif", fontSize: "11px", letterSpacing: "0.25em", textTransform: "uppercase", zIndex: 10 }}>
@@ -32,7 +39,7 @@ export default function Album() {
       </header>
 
       <div style={{ columns: "260px 3", columnGap: "20px", maxWidth: "1000px", margin: "0 auto" }}>
-        {samples.map((entry) => (
+        {entries.map((entry) => (
           <div key={entry.id} style={{ breakInside: "avoid", marginBottom: "20px", background: "white", border: "1px solid var(--border)", boxShadow: "0 1px 4px rgba(0,0,0,0.06)", overflow: "hidden" }}>
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img src={entry.imageData} alt={entry.word} style={{ width: "100%", display: "block", objectFit: "cover" }} />
