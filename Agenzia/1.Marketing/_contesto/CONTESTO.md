@@ -178,18 +178,120 @@ L'idea parte da una premessa semplice: **esiste uno spazio tra le cose e le paro
 
 ---
 
-## Come Iniziare in Sviluppo
+## Guida Pratica
 
+### Configurazione Iniziale
+
+**1. Clona il repository:**
 ```bash
-# Installa dipendenze
-npm install
-
-# Avvia server di sviluppo
-npm run dev
-
-# Visita
-http://localhost:3000
+git clone https://github.com/beatodilieana/sillessico.git
+cd sillessico
 ```
+
+**2. Installa dipendenze:**
+```bash
+npm install
+```
+
+**3. Configura variabili d'ambiente (`.env.local`):**
+```
+ANTHROPIC_API_KEY=sk-ant-api03-...  # Ottieni da console.anthropic.com
+```
+
+### Sviluppo Locale
+
+**Avvia il server:**
+```bash
+npm run dev
+```
+Visita: `http://localhost:3000`
+
+**Build per produzione:**
+```bash
+npm run build
+npm start
+```
+
+**Comandi utili:**
+```bash
+npm run lint        # Controlla errori TypeScript
+npm run format      # Formatta il codice
+git log --oneline   # Vedi storia commit
+```
+
+### Struttura Progetto
+
+```
+sillessico/
+├── src/
+│   ├── app/
+│   │   ├── page.tsx              # Home — inventore di parole
+│   │   ├── api/
+│   │   │   ├── invent/route.ts   # API generazione (Claude)
+│   │   │   └── album/route.ts    # API salvataggio album
+│   │   ├── consulta/page.tsx     # Lessico statico
+│   │   ├── album/page.tsx        # Album dinamico
+│   │   ├── dizionario/page.tsx   # About page
+│   │   └── layout.tsx            # Root layout
+│   ├── data/
+│   │   ├── albumEntries.json     # Storage parole generate
+│   │   └── words.ts              # 11 parole curate
+│   └── styles/ (in globals.css)
+├── public/
+├── Agenzia/                       # Documentazione marketing
+├── .env.local                     # Credenziali locali
+├── next.config.ts                # Config Next.js
+└── tsconfig.json                 # Config TypeScript
+```
+
+### Deployment (Vercel)
+
+**Push su GitHub:**
+```bash
+git add .
+git commit -m "Descrizione cambio"
+git push origin main
+```
+
+**Vercel deployer automaticamente:**
+- Vercel monitora il branch `main`
+- Build e deploy automatico su `sillessico.vercel.com`
+- Tempo di deploy: 1-3 minuti
+
+### Debugging
+
+**Se localhost non funziona:**
+```bash
+# Pulisci cache build
+rm -rf .next node_modules
+npm install
+npm run dev
+```
+
+**Se l'API di Claude non risponde:**
+- Controlla `.env.local` ha la chiave corretta
+- Verifica quota API su console.anthropic.com
+- Controlla errori in console del browser (F12)
+
+**Se album non salva:**
+- Controlla che `albumEntries.json` esista in `src/data/`
+- Verifica permessi di scrittura sulla cartella
+- Controlla console backend per errori API
+
+### Aggiunte Rapide
+
+**Per aggiungere una nuova pagina:**
+1. Crea cartella `src/app/nuova-pagina/`
+2. Crea `page.tsx` dentro
+3. Struttura: `export default function NomePagina() { return (...) }`
+
+**Per aggiungere una parola statica:**
+1. Modifica `src/data/words.ts`
+2. Aggiungi entry all'array `words`
+
+**Per cambiar colori:**
+1. Modifica `src/app/globals.css` (variabili CSS)
+2. O cambia inline style nei componenti
 
 ---
 
