@@ -295,8 +295,77 @@ npm run dev
 
 ---
 
+---
+
+## Strategia di Promozione (Smart)
+
+### Approccio Generale
+Creare un sistema automatico di promozione con **Claude AI Agent** che genera contenuti intelligenti + **n8n workflow** che pubblica sui social.
+
+L'Agent analizzerà ogni parola e creerà varianti di contenuto adatte per diverse piattaforme, tone, e audience.
+
+### Parametri da Definire
+
+**1. Piattaforme Prioritarie**
+- [ ] X (Twitter)
+- [ ] Instagram
+- [ ] TikTok
+- [ ] Bluesky
+- [ ] LinkedIn
+- Quali scegliere?
+
+**2. Frequenza di Posting**
+- [ ] 1 post/giorno
+- [ ] Ogni nuova parola inventata
+- [ ] 2-3 post al giorno (staggered)
+- [ ] Random (3-5 volte/settimana)
+- Quale cadenza?
+
+**3. Tipo di Contenuto**
+- [ ] Descrizione semplice + hook (140 car)
+- [ ] Story lunga (500+ car) con contesto
+- [ ] Visual + testo (immagine generata?)
+- [ ] Mix: titolo + etimologia + esempio
+- Quale formato?
+
+**4. Fonte delle Parole**
+- [ ] Dal database `albumEntries.json` (parole generate da utenti)
+- [ ] Parola casuale dalle 11 curate in `words.ts`
+- [ ] "Parola del giorno" (sempre la stessa per 24h)
+- [ ] Mix: utenti 70% + curate 30%
+- Da dove peschiamo?
+
+### Architettura (Da Implementare)
+
+```
+Sillessico Database (albumEntries.json)
+         ↓
+Claude AI Agent (Promotion Intelligence)
+├─ Analizza parola
+├─ Genera 3 varianti di copy
+├─ Produce hashtag
+└─ Adatta per ogni piattaforma
+         ↓
+n8n Workflow (Publisher)
+├─ Pubblica su X
+├─ Pubblica su Instagram
+├─ Pubblica su TikTok
+├─ Traccia engagement
+└─ Log risultati
+```
+
+### Prossime Azioni
+1. **Definire i 4 parametri sopra**
+2. **Creare il Claude Agent prompt**
+3. **Costruire n8n workflow**
+4. **Testare con 3-5 parole**
+5. **Deploy automatico**
+
+---
+
 ## Prossimi Step (Dalla Sessione Corrente)
 
 1. ✅ Rinominare "Esplora" → "Consulta"
 2. ✅ Creare salvataggio automatico immagini in Album
-3. 🚀 Costruire sistema promozione con Claude Agents + n8n
+3. 🚀 Definire parametri promozione smart
+4. 🚀 Costruire sistema Claude Agent + n8n
