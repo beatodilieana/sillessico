@@ -8,23 +8,7 @@ interface AlbumEntry {
   word: string;
 }
 
-const samples: AlbumEntry[] = [
-  {
-    id: "1",
-    imageData: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='400'%3E%3Crect width='600' height='400' fill='%23c9c0b3'/%3E%3C/svg%3E",
-    word: "velunche",
-  },
-  {
-    id: "2",
-    imageData: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='800'%3E%3Crect width='600' height='800' fill='%23a8b5c1'/%3E%3C/svg%3E",
-    word: "foralba",
-  },
-  {
-    id: "3",
-    imageData: "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='600' height='500'%3E%3Crect width='600' height='500' fill='%23b8c4ae'/%3E%3C/svg%3E",
-    word: "mirsola",
-  },
-];
+const samples: AlbumEntry[] = [];
 
 export default function Album() {
   return (
