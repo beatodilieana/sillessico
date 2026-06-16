@@ -119,7 +119,7 @@ export async function POST(req: NextRequest) {
 
   try {
     const body = await req.json();
-    const { text, imageBase64, mimeType, imageFocus, outputLanguage, previousResults, mode } = body as {
+    let { text, imageBase64, mimeType, imageFocus, outputLanguage, previousResults, mode } = body as {
       text?: string;
       imageBase64?: string;
       mimeType?: string;
