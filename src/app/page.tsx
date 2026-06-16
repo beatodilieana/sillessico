@@ -368,3 +368,4 @@ const textStyle: React.CSSProperties = {
   lineHeight: 1.75,
   color: "var(--ink)",
 };
+// Vercel test: forcing rebuild
