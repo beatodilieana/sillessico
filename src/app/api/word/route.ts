@@ -132,11 +132,24 @@ export async function POST(req: NextRequest) {
     const language: "it" | "en" = outputLanguage === "en" ? "en" : "it";
     const isIt = language === "it";
 
-    if (!text && !imageBase64) {
-      return NextResponse.json(
-        { error: isIt ? "Fornisci un testo o un'immagine." : "Please provide a text or an image." },
-        { status: 400 }
-      );
+    // If no input provided, generate a random word of the day
+    const shouldGenerateRandomWord = !text && !imageBase64;
+    if (shouldGenerateRandomWord) {
+      // Generate a random concept to invent a word for
+      const randomConcepts = isIt ? [
+        "la malinconia leggera del tramonto estivo",
+        "il momento perfetto tra il sonno e la veglia",
+        "la nostalgia di un luogo che non esiste",
+        "la gioia nel scoprire una pagina bella in un libro",
+        "il silenzio dopo una conversazione importante",
+      ] : [
+        "the subtle sadness of a summer sunset",
+        "the perfect moment between sleep and waking",
+        "nostalgia for a place that never existed",
+        "joy in discovering a beautiful page in a book",
+        "silence after an important conversation",
+      ];
+      text = randomConcepts[Math.floor(Math.random() * randomConcepts.length)];
     }
 
     // Reverse mode: given a made-up word, invent its definition
