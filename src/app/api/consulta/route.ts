@@ -2,12 +2,14 @@ import { readFileSync, writeFileSync } from "fs";
 import { join } from "path";
 import { NextRequest, NextResponse } from "next/server";
 
-const dbPath = join(process.cwd(), "src/data/albumEntries.json");
+const dbPath = join(process.cwd(), "src/data/consultaEntries.json");
 
-interface AlbumEntry {
+interface ConsultaEntry {
   id: string;
-  imageData: string;
   word: string;
+  pronunciation: string;
+  category: string;
+  etymology: string;
   definition: string;
   example: string;
 }
@@ -15,13 +17,13 @@ interface AlbumEntry {
 export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
-    const { imageData, word, definition, example } = body;
+    const { word, pronunciation, category, etymology, definition, example } = body;
 
-    if (!imageData || !word) {
-      return NextResponse.json({ error: "Missing imageData or word" }, { status: 400 });
+    if (!word || !definition) {
+      return NextResponse.json({ error: "Missing word or definition" }, { status: 400 });
     }
 
-    let entries: AlbumEntry[] = [];
+    let entries: ConsultaEntry[] = [];
     try {
       const data = readFileSync(dbPath, "utf-8");
       entries = JSON.parse(data);
@@ -29,11 +31,13 @@ export async function POST(req: NextRequest) {
       entries = [];
     }
 
-    const newEntry: AlbumEntry = {
+    const newEntry: ConsultaEntry = {
       id: `${Date.now()}`,
-      imageData,
       word,
-      definition: definition ?? "",
+      pronunciation: pronunciation ?? "",
+      category: category ?? "",
+      etymology: etymology ?? "",
+      definition,
       example: example ?? "",
     };
 

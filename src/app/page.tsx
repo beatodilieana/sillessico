@@ -96,11 +96,20 @@ export default function WordInventor() {
 
       if (mode === "image" && !typed.exists && imageFile) {
         const imageBase64 = await toBase64(imageFile);
-        const word = (typed as NewWordResult).word;
+        const { word, definition, example } = typed as NewWordResult;
         await fetch("/api/album", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ imageData: `data:${imageFile.type};base64,${imageBase64}`, word }),
+          body: JSON.stringify({ imageData: `data:${imageFile.type};base64,${imageBase64}`, word, definition, example }),
+        }).catch(() => {});
+      }
+
+      if (mode === "text" && !typed.exists) {
+        const { word, pronunciation, grammatical_category, etymology, definition, example } = typed as NewWordResult;
+        await fetch("/api/consulta", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ word, pronunciation, category: grammatical_category, etymology, definition, example }),
         }).catch(() => {});
       }
     } catch (e) {

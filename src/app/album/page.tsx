@@ -7,6 +7,8 @@ interface AlbumEntry {
   id: string;
   imageData: string;
   word: string;
+  definition?: string;
+  example?: string;
 }
 
 export default function Album() {
@@ -47,6 +49,16 @@ export default function Album() {
               <p style={{ fontFamily: "Georgia, serif", fontSize: "clamp(20px, 3vw, 26px)", fontStyle: "italic", fontWeight: "normal", color: "var(--ink)", margin: 0 }}>
                 {entry.word}
               </p>
+              {entry.definition && (
+                <p style={{ fontFamily: "Georgia, serif", fontSize: "14px", color: "var(--ink)", lineHeight: 1.5, margin: "10px 0 0" }}>
+                  {entry.definition}
+                </p>
+              )}
+              {entry.example && (
+                <p style={{ fontFamily: "Georgia, serif", fontSize: "13px", fontStyle: "italic", color: "var(--muted)", lineHeight: 1.5, margin: "10px 0 0" }}>
+                  &ldquo;{entry.example}&rdquo;
+                </p>
+              )}
             </div>
           </div>
         ))}

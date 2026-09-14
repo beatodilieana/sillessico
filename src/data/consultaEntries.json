@@ -1,0 +1,218 @@
+[
+  {
+    "id": "seed-1",
+    "word": "velunche",
+    "pronunciation": "/ve·ˈluŋ·ke/",
+    "category": "s.f.",
+    "etymology": "dal lat. velare, coprire + unche, desinenza inventata di luogo",
+    "definition": "La malinconia morbida che si prova nell'ultima ora passata in una stanza che si sa di non rivedere più.",
+    "example": "Rimase seduta sul pavimento vuoto, piena di velunche, a guardare i segni lasciati dai mobili sul parquet."
+  },
+  {
+    "id": "seed-2",
+    "word": "tembrio",
+    "pronunciation": "/ˈtem·bri·o/",
+    "category": "s.m.",
+    "etymology": "dal gr. trepein, girare + brio, vita — l'energia che si volta su se stessa",
+    "definition": "Il disagio acuto di essere visti felici da qualcuno che non lo è.",
+    "example": "Abbassò il volume della risata senza capire perché: era solo tembrio."
+  },
+  {
+    "id": "seed-3",
+    "word": "foralba",
+    "pronunciation": "/fo·ˈral·ba/",
+    "category": "s.f.",
+    "etymology": "dal lat. foras, fuori + alba — luce che sembra venire da altrove",
+    "definition": "La qualità della luce nei pomeriggi invernali quando il giorno sembra già finito anche se sono le tre.",
+    "example": "Aprì le persiane e trovò foralba: quella luce piatta che non promette niente."
+  },
+  {
+    "id": "seed-4",
+    "word": "glacume",
+    "pronunciation": "/gla·ˈku·me/",
+    "category": "s.m.",
+    "etymology": "dal lat. glacies, ghiaccio — ciò che scivola via mentre lo tocchi",
+    "definition": "La sensazione fisica di un ricordo che stai quasi afferrando, e che svanisce nel momento esatto in cui ci provi.",
+    "example": "Ne aveva il nome sulla punta della lingua, poi glacume — e non rimase niente."
+  },
+  {
+    "id": "seed-5",
+    "word": "sorniva",
+    "pronunciation": "/sor·ˈni·va/",
+    "category": "s.f.",
+    "etymology": "dal fr. ant. sornette, piccola cosa + iva, suffisso di passaggio",
+    "definition": "Il momento preciso e impercettibile in cui una conversazione ordinaria diventa qualcosa di importante.",
+    "example": "Non si accorsero della sorniva: continuarono a parlare di treni, ma stavano già dicendo altro."
+  },
+  {
+    "id": "seed-6",
+    "word": "palòsco",
+    "pronunciation": "/pa·ˈlɔs·ko/",
+    "category": "s.m.",
+    "etymology": "dal lat. palpare, toccare + oscuro — impulso che non si spiega",
+    "definition": "L'impulso irrazionale e quasi fisico di toccare qualcosa di fragile o proibito, sapendo che non si dovrebbe.",
+    "example": "Tenne le mani in tasca per tutto il tempo: il vaso di porcellana gli causava un palòsco insopportabile."
+  },
+  {
+    "id": "seed-7",
+    "word": "ferrugine",
+    "pronunciation": "/fer·ˈru·dʒi·ne/",
+    "category": "s.f.",
+    "etymology": "dal lat. ferrugo, ruggine — nostalgia per ciò che non è mai esistito",
+    "definition": "La nostalgia per una versione di sé che non si è mai stati: il rimpianto di una vita parallela mai vissuta.",
+    "example": "Guardava le fotografie di sua madre giovane e sentiva ferrugine per un'adolescenza che non era la sua."
+  },
+  {
+    "id": "seed-8",
+    "word": "colvène",
+    "pronunciation": "/kol·ˈvɛ·ne/",
+    "category": "s.m.",
+    "etymology": "dal lat. colligere, raccogliere + vene — ciò che raccoglie il fiato",
+    "definition": "Il silenzio particolare che segue una risata collettiva troppo grande: quel secondo sospeso in cui tutti riprendono fiato e nessuno vuole che finisca.",
+    "example": "Dopo la battuta ci fu colvène, e in quel secondo capì che erano diventati amici."
+  },
+  {
+    "id": "seed-9",
+    "word": "mirsola",
+    "pronunciation": "/ˈmir·so·la/",
+    "category": "s.f.",
+    "etymology": "dal gr. myron, profumo + sola — la dolcezza di ciò che si porta via",
+    "definition": "La capacità rara di trovare bellezza precisa nelle cose mentre stanno finendo, invece che dopo.",
+    "example": "Aveva mirsola: riusciva a godere dell'ultima fetta, dell'ultimo giorno, dell'ultima volta — mentre accadeva."
+  },
+  {
+    "id": "seed-10",
+    "word": "oblènto",
+    "pronunciation": "/o·ˈblɛn·to/",
+    "category": "s.m.",
+    "etymology": "dal lat. oblivisci, dimenticare + lento — il peso di ciò che non si decide",
+    "definition": "Il peso specifico, quasi fisico, di una decisione importante che si rimanda: si accumula nelle spalle, si sente di notte.",
+    "example": "Non era stanchezza, era oblènto: quella decisione sul tavolo da sei mesi."
+  },
+  {
+    "id": "seed-11",
+    "word": "scaltriva",
+    "pronunciation": "/skal·ˈtri·va/",
+    "category": "s.f.",
+    "etymology": "dall'it. scaltro + deriva — la furbizia che devia lo sguardo",
+    "definition": "L'arte inconscia di fingere di non accorgersi di qualcosa di bello, per proteggerlo — come se notarlo ad alta voce lo consumasse.",
+    "example": "Non disse niente del tramonto. Era scaltriva: sapeva che nominarlo lo avrebbe reso più piccolo."
+  },
+  {
+    "id": "1784302717436",
+    "word": "ubicrotura",
+    "pronunciation": "u-bi-krò-tu-ra",
+    "category": "s.f.",
+    "etymology": "Costruito da 'ubi-' (dal latino *ubi*, 'dove', radice produttiva nelle formazioni che indicano collocazione spaziale diffusa, come in 'ubiquo') e '-crotura', suffisso ibrido ottenuto fondendo il greco *krotos* (battito ritmico, percussione ciclica) con il suffisso risultativo '-ura', tipico dell'italiano per nominare l'esito percettivo di un processo (cfr. 'rottura', 'curvatura'): il tutto nomina il risultato visivo di una presenza spazialmente diffusa generata dal ciclo rotatorio.",
+    "definition": "Effetto percettivo per cui un oggetto in rotazione rapida — come una pala di ventilatore o una ruota — sembra occupare simultaneamente tutti i punti della sua traiettoria circolare, perdendo i contorni discreti e apparendo come una superficie continua e onnipresente. È prodotto dall'incapacità del sistema visivo umano di segmentare movimenti superiori alla soglia di fusione temporale.",
+    "example": "Con il ventilatore al massimo, le tre pale scomparivano in un'ubicrotura trasparente che lasciava intravedere il muro dietro, come se il movimento avesse cancellato la materia."
+  },
+  {
+    "id": "1784302828397",
+    "word": "ghitāb",
+    "pronunciation": "gi-'tɑb",
+    "category": "s.m.",
+    "etymology": "Calco semantico sulla radice araba غ-ط-ب (gh-ṭ-b), appartenente al campo semantico del 'coprire, occultare mediante un oggetto piatto', incrociata con la radice ك-ت-ب (k-t-b, 'libro, scrittura'), da cui il prestito italiano già familiare 'kitāb'; la fusione fonetica adattata all'italiano neutralizza le occlusive arabe in /g/ e /t/ e mantiene la vocale lunga finale come marca nominale maschile.",
+    "definition": "La porzione della copertina di un libro — grafica, titolo o immagine — che risulta occultata alla vista da un telecomando posato piatto sulla superficie del volume. Il ghitāb varia per estensione e posizione a seconda del modello di telecomando e dell'orientamento in cui è stato abbandonato.",
+    "example": "Sollevando il telecomando per cambiare canale, scoprì che il ghitāb nascondeva esattamente il nome dell'autore, lasciando visibile solo il titolo del romanzo."
+  },
+  {
+    "id": "1784303023565",
+    "word": "profansonanza",
+    "pronunciation": "pro-fan-so-NAN-tsa",
+    "category": "s.f.",
+    "etymology": "Composto da 'profano' (dal latino profanus, ciò che sta fuori dal sacro) e 'sonanza' (derivato di sonare, risonanza acustica): i due elementi fondono il concetto di violazione dello spazio sacro con quello dell'emissione sonora che lo abita e lo trasforma.",
+    "definition": "Fenomeno acustico ed estetico che si produce quando un suono di origine spiccatamente laica o secolare — in particolare elettrico e distorto — riempie e riverbera all'interno di uno spazio architettonico già consacrato al culto. Non indica semplice dissonanza culturale, ma la qualità particolare di quella coesistenza: il suono profano che si dilata nelle navate, si mescola all'eco del sacro e acquista una solennità involontaria.",
+    "example": "Quando Diego attaccò il primo accordo di wah-wah sotto la volta affrescata, tutti capirono che stava accadendo qualcosa di irripetibile: una profansonanza perfetta, quasi liturgica nel suo essere blasfema."
+  },
+  {
+    "id": "1784303065141",
+    "word": "rossanoto",
+    "pronunciation": "ros-sa-'nɔ-to",
+    "category": "s.m.",
+    "etymology": "Costruito sull'incrocio acustico tra 'rosato' (riferito alla salsa rosa, dal lat. *rosatus*) e 'annoto' / 'inzuppato' (da *annotare* nel senso di immergere, assorbire), con influsso fonico di 'gambero' che colora l'immagine del rosa crustaceo; l'ambiguità tra il colore e l'atto dell'inzuppamento è il cuore semantico del termine.",
+    "definition": "Un gamberetto completamente immerso e avvolto nella salsa rosa, al punto che il crostaceo e il condimento formano un'unità inscindibile sia visiva che gustativa. Il termine cattura non solo la presenza della salsa, ma la sua totale fusione con il gambero, che ne risulta saturo e colorato in modo uniforme. Si usa in contesti culinari per indicare questa specifica presentazione del crostaceo.",
+    "example": "Sul vassoio degli antipasti campeggiava una fila di rossanoti perfetti, ciascuno lucido e voluttuoso, che nessuno osava toccare per primo."
+  },
+  {
+    "id": "1784303121719",
+    "word": "zarmīka",
+    "pronunciation": "zar-'miː-ka",
+    "category": "s.f.",
+    "etymology": "Calco semantico dal persiano زَرم (zarm, 'severità tagliente, rigore del gelo') combinato con il suffisso adattivo italiano -ica, sulla falsariga di parole come 'lirica' o 'mimica'; la radice consonantica Z-R-M evoca in persiano il freddo pungente e la disapprovazione silenziosa, qui applicata allo sguardo inanimato di un'entità naturale verso un oggetto culturale.",
+    "definition": "La qualità dello sguardo immaginato che un essere vegetale o naturale riverserebbe — se dotato di volontà — verso un artefatto umano percepito come estraneo, ridondante o stilisticamente dissonante rispetto al proprio contesto. Si riferisce in particolare alla tensione silenziosa tra la bellezza organica e la mediazione culturale dell'uomo, specie quando quest'ultima appartiene a un'epoca o lingua lontana.",
+    "example": "Nel giardino del museo, una rosa selvatica dal gambo arcuato sembrava esercitare la sua perfetta zarmīka verso il manifesto ingiallito di quel film tedesco del 1972, come se la carta stampata violasse qualcosa di non negoziabile."
+  },
+  {
+    "id": "1784303170540",
+    "word": "kairòlisi",
+    "pronunciation": "kai-ˈrɔ-li-zi",
+    "category": "s.f.",
+    "etymology": "Calco semantico dal giapponese 気づき (kidzu-ki, 'presa di coscienza') e 終わり (owari, 'fine'): si fondono il greco kairos (il momento decisivo, l'istante carico di senso) e lysis (scioglimento, dissoluzione), sul modello dei composti dotti italiani in -lisi, per indicare lo scioglimento che avviene in un preciso istante rivelatore.",
+    "definition": "L'istante preciso e irreversibile in cui la mente riconosce con chiarezza assoluta che un legame affettivo è terminato — non per una decisione razionale, ma per una percezione improvvisa e silenziosa che rende inutile ogni ulteriore dubbio. La kairòlisi non è la fine della relazione, ma il momento in cui quella fine diventa interiormente vera.",
+    "example": "Non fu la lite a separarli davvero: la kairòlisi arrivò settimane dopo, mentre lei lo guardava ridere al telefono e sentì, senza dolore, che non le apparteneva più nulla di quell'uomo."
+  },
+  {
+    "id": "1784303577293",
+    "word": "semipultura",
+    "pronunciation": "se-mi-pul-TU-ra",
+    "category": "s.f.",
+    "etymology": "Dal latino 'semi-' (metà) e 'puls/pultis' (pappa, farinata, purè di legumi) — perché la puls era il cibo romano per eccellenza a base di legumi parzialmente disfatti, e 'semi-' ne cattura il punto di mezzo tra la forma intera e la dissoluzione completa.",
+    "definition": "Stato di consistenza intermedia di legumi cotti, in particolare ceci, in cui il chicco ha perso la propria compattezza originale ma non è ancora stato ridotto a crema omogenea. La buccia è intatta o quasi, ma l'interno cede al minimo tocco. Non è più il legume in natura, non è ancora hummus.",
+    "example": "Ho schiacciato i ceci appena un po' con il dorso del cucchiaio, lasciandoli in semipultura: né interi né cremosi, perfetti per condire la pasta."
+  },
+  {
+    "id": "1784303625907",
+    "word": "mutoclàmor",
+    "pronunciation": "mu-to-KLA-mor",
+    "category": "s.m.",
+    "etymology": "Calco semantico dal giapponese 無声叫 (musei-sakebi, 'urlo senza voce'): i componenti sono resi con il latino 'mutus' (privo di voce) e 'clamor' (grido, richiamo acuto), fusi in un composto che segue il modello dei latinismi tecnici italiani con accento sdrucciolo.",
+    "definition": "Il grido silenzioso che l'immaginazione proietta su esseri incapaci di vocalizzare — animali, piante, oggetti — nel momento in cui subiscono una violenza o una distruzione. Non è un suono percepito fisicamente, ma una costruzione psichica del testimone o del responsabile, carica di senso di colpa attribuito in modo riflessivo: non l'essere urla, ma chi guarda sente l'urlo che avrebbe dovuto esserci.",
+    "example": "Mentre spegneva il fuoco sotto la pentola, fu sopraffatto da un mutoclàmor così nitido che dovette uscire in giardino a respirare."
+  },
+  {
+    "id": "1784303718032",
+    "word": "mukyōkan",
+    "pronunciation": "mu-kyō-kan",
+    "category": "s.m.",
+    "etymology": "Calco semantico dal giapponese 無鏡間 (mu-kyō-ma, letteralmente 'spazio-senza-fine degli specchi'): i componenti vengono trasferiti attraverso i corrispondenti morfemi greco-latini *a-* (privativo), *katóptron* (specchio) e *spatium* (spazio), fusi in una forma foneticamente adattata all'italiano.",
+    "definition": "Il fenomeno visivo e concettuale prodotto da due specchi paralleli e contrapposti che si riflettono a vicenda all'infinito, generando una galleria di immagini che si rimpiccioliscono progressivamente verso un punto inaccessibile. Per estensione, qualsiasi struttura — logica, narrativa o simbolica — in cui due elementi si contengono reciprocamente senza fine.",
+    "example": "Posizionando le due lastre di vetro argentato l'una di fronte all'altra nel corridoio, l'installazione produceva un mukyōkan ipnotico che sembrava aprire un tunnel verso l'eternità."
+  },
+  {
+    "id": "1784303736881",
+    "word": "spectrolvura",
+    "pronunciation": "spet-trol-vù-ra",
+    "category": "s.f.",
+    "etymology": "Composto dal latino 'spectrum' (immagine riflessa, apparizione) e dal prefisso iterativo 'olv-' derivato per analogia con 'volvere' (ruotare, avvolgere su se stesso), cui si aggiunge il suffisso '-ura' — produttivo in italiano per indicare il risultato concreto di un processo (es. 'piega-tura', 'frat-tura') — a segnalare che si tratta non dell'azione in sé, ma del suo esito visivo e concettuale stabilizzato.",
+    "definition": "Il fenomeno per cui due superfici riflettenti contrapposte generano una serie potenzialmente infinita di immagini reciproche, ciascuna contenente l'altra in progressiva riduzione. Per estensione, indica qualsiasi sistema autoreferenziale che si replica all'interno della propria stessa struttura senza poter raggiungere un termine. La spectrolvura non è percepibile nella sua interezza, poiché il punto di fuga sfugge alla risoluzione dell'occhio umano.",
+    "example": "Appoggiandosi alla parete dello spogliatoio, rimase ipnotizzato dalla spectrolvura che si apriva tra i due grandi specchi paralleli, ciascun riflesso più piccolo e più sfocato del precedente, fino a dissolversi nel nulla."
+  },
+  {
+    "id": "1784303784294",
+    "word": "abissoforo",
+    "pronunciation": "a-bis-so-fo-ro",
+    "category": "s.m.",
+    "etymology": "Composto dal greco ἄβυσσος (ábyssos, 'senza fondo', termine tecnico adottato in cartografia nautica per indicare fondali insondabili) e dal greco φορός (phorós, 'portatore, che genera e trasporta'), sul modello produttivo di termini come 'luminoforo' o 'cromoforo': il secondo elemento indica non chi subisce ma chi produce e propaga attivamente la profondità senza fondo.",
+    "definition": "Il corridoio ottico virtuale di profondità illimitata generato da due superfici riflettenti parallele e affacciate l'una all'altra, in cui ogni immagine riflessa contiene a sua volta il riflesso del riflesso, producendo una regressione visiva teoricamente infinita. L'abissoforo non è la singola riflessione, ma l'entità complessiva e percepibile di quel pozzo prospettico: una struttura che porta in sé il proprio abisso e lo esibisce.",
+    "example": "Nell'ascensore rivestito di specchi, i bambini restavano incollati alle pareti a fissare l'abissoforo che si apriva ai loro fianchi, cercando con gli occhi il punto esatto in cui le immagini smettessero di rimpicciolirsi."
+  },
+  {
+    "id": "1784391503633",
+    "word": "squassèvole",
+    "pronunciation": "skwas-'sɛ-vo-le",
+    "category": "agg.",
+    "etymology": "Costruito sul latino 'quassare' (agitare, scuotere con forza) incrociato acusticamente con 'squash', voce onomatopeica che evoca qualcosa di morbido e compresso in rapido moto; il suffisso aggettivale '-evole' (produttivo in italiano: 'amabile', 'mutevole') aggiunge il senso di una qualità intrinseca e caratterizzante — così il confine tra 'scuotere' e 'soffice rimbalzo' rimane deliberatamente poroso.",
+    "definition": "Detto di una coda folta e pelosa — tipicamente quella dello scoiattolo — che si muove con scosse laterali morbide e ritmiche durante la corsa, descrivendo un'onda continua e visivamente ipnotica. La qualità squassèvole non è né il moto brusco né quello lento, ma esattamente l'intermedio: una vibrazione viva che sembra respirare.",
+    "example": "La coda squassèvole dello scoiattolo scivolava lungo il cornicione come una piccola bandiera impazzita al vento."
+  },
+  {
+    "id": "1784391537203",
+    "word": "zùmmido",
+    "pronunciation": "ˈdzum.mi.do",
+    "category": "s.m.",
+    "etymology": "Costruito su zumm-, nucleo fonestetico che evoca umidità densa e fermentazione ronzante (cfr. 'zumare', 'zuppo'), combinato con il suffisso -ido tipico degli stati organolettici degradati (fetido, rancido, torpido): il risultato nomina precisamente quel tipo di odore acquoso-dolce che irrancidisce.",
+    "definition": "L'odore specifico e sgradevole prodotto dal succo di frutta acquosa — in particolare l'anguria — lasciato stagnare per giorni: un tanfo dolciastro, fermentato e vagamente alcolico, con una componente di muffa bagnata che aggredisce le narici in modo viscerale.",
+    "example": "Aprì il cassetto del frigorifero e fu investita dallo zùmmido del contenitore di anguria dimenticato dal martedì."
+  }
+]

@@ -58,7 +58,7 @@ L'idea parte da una premessa semplice: **esiste uno spazio tra le cose e le paro
 - [x] Salvataggio automatico in Album
 - [x] Lessico statico con 11 parole curate
 - [x] Deploy su Vercel
-- [x] Naming: da "Titivillus" a "Sillessico"
+- [x] Naming: definito "Sillessico"
 - [x] Rename categoria: "Esplora" → "Consulta"
 
 ### 🚀 In Sviluppo
