@@ -295,5 +295,41 @@
     "etymology": "Costruito sul cluster fonico zor- — consonante africata iniziale che evoca lo strisciare e l'ondeggiare — combinato con il suffisso -colo, diminutivo latino produttivo, che aggiunge fragilità e riduzione di scala al moto descritto.",
     "definition": "Il modo di camminare tipico di una persona molto anziana, oltre i novant'anni, caratterizzato da un'andatura oscillante e a piccoli passi irregolari, nella quale il busto dondola leggermente a ogni movimento come per compensare l'instabilità delle gambe. Non è inciampo né caduta, ma un equilibrio perpetuamente negoziato con il suolo.",
     "example": "Il nonno attraversò la piazza con il suo solito zòrcolo, fermo nel proposito di arrivare alla panchina senza che nessuno lo aiutasse."
+  },
+  {
+    "id": "1789562512990",
+    "word": "primalma",
+    "pronunciation": "pri-màl-ma",
+    "category": "s.f.",
+    "etymology": "Portmanteau di 'prima' (anteriorità temporale, primato) e 'palma' (simbolo di possesso e vittoria, ma anche la mano che stringe): la giuntura elimina la sillaba condivisa '-ma/-pal-', lasciando un corpo fonologico che sente ancora la presa.",
+    "definition": "Il senso di appartenenza o di possesso originario che precede ogni codifica, ogni spartizione, ogni nome attribuito a ciò che si tiene. La convinzione viscerale di aver avuto qualcosa prima che il mondo lo nominasse e dunque lo dividesse. Non è nostalgia, ma una rivendicazione silenziosa dell'anteriorità.",
+    "example": "Guardò la città dall'alto e sentì salire in petto la primalma di chi sa di aver camminato su quelle strade quando erano ancora soltanto terra battuta."
+  },
+  {
+    "id": "1789562546368",
+    "word": "lacrimora",
+    "pronunciation": "la-cri-MO-ra",
+    "category": "s.f.",
+    "etymology": "Portmanteau di 'lacrima' (goccia, perdita, dissoluzione emotiva) e 'dimora' (luogo del restare, dell'appartenere a un tempo); la fusione cancella la soglia tra i due, come il concetto stesso suggerisce: ciò che fu casa si fa acqua.",
+    "definition": "La condizione di ciò che è esistito intensamente ma è destinato a dissolversi senza lasciare traccia, non per mancanza di valore ma per eccesso di fragilità rispetto all'indifferenza del tempo. Non è oblio — è la consapevolezza lucida e silenziosa della propria evaporazione nel grande continuum.",
+    "example": "Guardava i suoi ricordi di guerra con la calma di chi ha già accettato la lacrimora: non chiese che qualcuno li conservasse."
+  },
+  {
+    "id": "1789562598698",
+    "word": "resenomia",
+    "pronunciation": "re-se-nò-mi-a",
+    "category": "s.f.",
+    "etymology": "Calco semantico dal giapponese 怨念 (onnen, 'spirito di rancore latente che agisce sul destino'), scomposto in 怨 (odio/risentimento) e 念 (pensiero/forza mentale): i componenti vengono replicati attraverso il latino 'resent-' (da 'resentire', avvertire di nascosto) fuso con il greco 'nemein' (distribuire, assegnare, dare forma), producendo una radice che descrive la forza invisibile del risentimento come agente ordinatore del futuro.",
+    "definition": "Condizione psichica in cui rancori mai elaborati, rimasti sotto la soglia della coscienza, esercitano una pressione silenziosa sulle scelte e sui comportamenti dell'individuo, plasmando indirettamente gli eventi futuri secondo la logica inconscia del torto subito. Non è vendetta né proposito, ma una gravità emotiva sepolta che curva il destino come una massa curva lo spazio.",
+    "example": "Anni dopo la separazione, Elena capì che i suoi rifiuti sistematici verso chiunque le offrisse stabilità non erano prudenza, ma resenomia: il vecchio tradimento, mai nominato, aveva continuato a scrivere la sua vita al posto suo."
+  },
+  {
+    "id": "1789562697566",
+    "word": "prosopamnesia",
+    "pronunciation": "pro-so-pam-né-si-a",
+    "category": "s.f.",
+    "etymology": "Dal greco 'prosopon' (volto, persona) e 'amnesia' (dimenticanza), ma con un'inversione semantica: non il dimenticare un volto noto, bensì il ricordare un volto mai incontrato — perché la memoria, quando si proietta nel vuoto, genera la stessa sensazione del riconoscimento.",
+    "definition": "Sensazione intensa e ingiustificata di aver già conosciuto una persona che si incontra per la prima volta. A differenza del comune déjà vu, che riguarda luoghi o situazioni, la prosopamnesia è strettamente legata alla presenza di un individuo specifico, al suo volto o alla sua voce, creando l'illusione di una familiarità inesistente.",
+    "example": "Appena le strinsi la mano, fui colto da una prosopamnesia così vivida che per un momento cercai nella mente il nome con cui avrei dovuto salutarla."
   }
 ]
